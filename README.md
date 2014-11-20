@@ -16,19 +16,19 @@ Run Background Request Jobs
 
 Default:
 
-	php web-worker.php http://www.google.com
+	php request-worker.php http://www.google.com
 	
 With COUNTER:
 
-	php web-worker.php http://www.google.com 10
+	php request-worker.php http://www.google.com 10
 
 With nohup (in background)
 
-	nohup php web-worker.php http://www.google.com &
+	nohup php request-worker.php http://www.google.com &
 
 Send to /dev/null
 	
-	php web-worker.php http://www.google.com 10 >> /dev/null
+	php request-worker.php http://www.google.com 10 >> /dev/null
 
 
 	
